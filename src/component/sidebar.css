@@ -1,0 +1,10 @@
+.nav-link {
+  text-decoration: none;
+  position: relative;
+  color: #000; 
+}
+
+.nav-link:hover, .nav-link:active, .nav-link.active {
+  border-bottom: 2px solid #e91a43; 
+  width:20px;
+}
