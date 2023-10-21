@@ -16,7 +16,7 @@ const Dashboard = () => {
 
 			<div className="p-4 sm:ml-64">
 				<div className="px-4 rounded-lg  lg:mt-10 mt-14">
-					<div className="bg-[#F0F1F5] rounded-bl-[90px] rounded-tr-[50px]  h-[40vh] ">
+					<div className="bg-[#F0F1F5] rounded-bl-[90px] rounded-tr-[50px]  lg:h-[40vh] ">
 						<div className="container mx-auto lg:px-5 lg:pr-10 py-8">
 							<div className="hidden lg:block mb-7">
 								<Navbar />
@@ -43,8 +43,12 @@ const Dashboard = () => {
 						</div>
 					</div>
 
-					<div className="lg:mt-[20%] mt-[60%] max-w-screen-lg ">
-						<p className="font-medium">Portfolio History</p>
+					<div className=" mt-[20%] max-w-screen-lg lg:pl-16 lg:pe-10 ">
+						<div className='flex justify-between items-center pb-5'>
+							<p className="font-medium">Portfolio History</p>
+							<p className=" lg:block hidden font-medium border-dotted border-b-2 border-black">Per Industry</p>
+
+						</div>
 						<div className="lg:grid grid-cols-5 lg:space-y-0 space-y-5 gap-4">
 							<div className="border rounded-[20px] flex flex-col justify-between items-start py-8 px-4 h-[300px]">
 								<div className="pl-2" >
