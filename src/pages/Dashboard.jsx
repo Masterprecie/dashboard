@@ -29,8 +29,8 @@ const Dashboard = () => {
 									</div>
 									<div className="text-end flex flex-col items-end">
 										<p className="w-2/3 text-start pl-4 pt-3 text-[#D0D1DA]">Access many other features and helpful insights</p>
-										<div className="flex justify-end mt-8">
-											<BsFillArrowRightSquareFill size={45} />
+										<div className="flex justify-end mt-16">
+											<BsFillArrowRightSquareFill size={50} />
 										</div>
 									</div>
 								</div>
@@ -43,7 +43,7 @@ const Dashboard = () => {
 						</div>
 					</div>
 
-					<div className="lg:mt-[20%] mt-[350px] max-w-screen-lg   ">
+					<div className="lg:mt-[20%] mt-[60%] max-w-screen-lg ">
 						<p className="font-medium">Portfolio History</p>
 						<div className="lg:grid grid-cols-5 lg:space-y-0 space-y-5 gap-4">
 							<div className="border rounded-[20px] flex flex-col justify-between items-start py-8 px-4 h-[300px]">
