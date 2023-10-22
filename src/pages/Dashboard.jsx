@@ -80,7 +80,7 @@ const Dashboard = () => {
 
 								</div>
 							</div>
-							<div className="border-2 rounded-[20px] flex flex-col justify-between items-start py-8 px-3  h-[300px]">
+							<div className="border rounded-[20px] flex flex-col justify-between items-start py-8 px-3  h-[300px]">
 								<div className="pl-2" >
 									<p className="font-semibold text-xl text-gray-600 pb-3 ">SEP 19</p>
 									<div className="border-b-4 border-gray-600 w-[30px]"></div>
@@ -93,7 +93,7 @@ const Dashboard = () => {
 
 								</div>
 							</div>
-							<div className=" col-span-2 border-2 bg-[#0120F7]  rounded-[20px] flex flex-col justify-between items-center py-2  h-[300px]">
+							<div className=" col-span-2 border bg-[#0120F7]  rounded-[20px] flex flex-col justify-between items-center py-2  h-[300px]">
 								<div>
 									<img src={pie} alt="" className="w-full" />
 								</div>
